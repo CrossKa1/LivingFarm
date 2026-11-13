@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "livingfarm",
+  "version": "${version}",
+  "name": "Living Farm",
+  "description": "A deeper livestock breeding, genetics and sustainable farming simulation.",
+  "authors": ["CrossKa1"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.crosskai.livingfarm.LivingFarm"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
